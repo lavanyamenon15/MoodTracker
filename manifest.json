@@ -7,6 +7,6 @@
         "default_popup": "index.html",
         "default_title": "Mood Tracker"
     },
-    "manifest_version": 2
+    "manifest_version": 3
 
 }
