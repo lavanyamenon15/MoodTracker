@@ -4,8 +4,9 @@
     min-height: 
 } */
 
-html {
-    color: darksalmon;
+html{
+    align-content: center;
+    padding: 5%;
 }
 
 body { 
