@@ -1,0 +1,14 @@
+{
+    "name": "Mood Mosaic", 
+    "version": "1.0.0",
+    "description": "A fun bullet-journal-esq chrome extension that allows you to track your day-to-day mood. A way to remember to sunny days on the rainy ones.",
+    "author": "Lavanya Menon",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Mood Mosiac"
+    },
+    "manifest_version": 3,
+    "content_security_policy": {
+        
+    }
+}

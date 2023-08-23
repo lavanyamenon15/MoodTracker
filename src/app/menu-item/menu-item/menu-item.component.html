@@ -1,0 +1,12 @@
+<div>
+    <div *ngIf="mosaic == true ; else elseblock">
+        <button mat-raised-button color="primary" (click)="onClick(name)"> 
+            <mat-card-title> <p>{{name}}</p> </mat-card-title>
+        </button>
+    </div>
+    <ng-template #elseblock>
+        <button mat-raised-button color="primary" (click)="onClick(name)"> 
+            <mat-card-title> <p>{{name}}</p> </mat-card-title>
+        </button>
+    </ng-template>
+</div>

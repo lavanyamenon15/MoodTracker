@@ -1,0 +1,16 @@
+#documentNewDay {
+    color: lightgreen;
+}
+
+#alterPrevMood {
+    color: lightblue;
+}
+
+#viewMoodMosaic {
+    color: violet
+}
+
+.listItems {
+    margin: 5%;
+    align-items: center;
+}

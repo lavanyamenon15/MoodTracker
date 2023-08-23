@@ -1,0 +1,18 @@
+<div *ngIf="loggedIn; else elseblock">
+    <div style="align-content: center;padding: auto;">
+      <h1> Welcome to Mood Mosiac {{this.name}} !! </h1>
+      <p class="welcome-message"> <i>Your mental health is an important aspect of wellness. Mood Mosiac's purpose is to help you better understand yourself through tracking trends in your mental health and helping you through the rainy days by remembering the sunny ones on the horizon. </i></p>
+      <app-menu></app-menu>
+    </div>
+  </div>
+  
+  <ng-template #elseblock style="align-content: center;padding: auto;">
+    <h1> Welcome to Mood Mosiac!</h1>
+    <form> 
+        <mat-form-field class="example-full-width">
+            <mat-label> What is your name? </mat-label>
+            <input matInput [(ngModel)]="name" name="name"> 
+        </mat-form-field>
+    </form>
+    <button (click)= "Login(name)"> Enter </button>
+  </ng-template>
