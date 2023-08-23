@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class MenuComponent {
   listItems: string[] = ["Document My Day", "Alter My Mood", "My Mosaic"]
 
-
-  menuClick(choice:string) {
+  menuClicked(choice:string) {
     
+    console.log(choice)
   }
 
 }

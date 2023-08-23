@@ -1,8 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
-/* html { 
+html { 
     position: relative; 
-    min-height: 
-} */
+    color: #E8DAEB;
+}
 
 html{
     align-content: center;
@@ -17,4 +17,22 @@ body {
     overflow-y: scroll; 
     overflow-x: scroll;
     align-content: center;
+    background-color: #E8DAEB;
+    border-radius: 30cap;
 } 
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(57, 44, 70);
+    size: 50%;
+    align-content: center;
+  }
+
+  
+p {
+    width: fit-content;
+    text-size-adjust: auto;
+    overflow-wrap: normal;
+    color: rgb(80, 62, 98);
+    align-content: center;
+}

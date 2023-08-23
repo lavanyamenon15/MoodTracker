@@ -3,7 +3,7 @@ class="listItems"
 id="documentNewDay" 
 [name]="listItems[0]"
 [mosaic]="false"
-(menuClick)="menuClick(choice)">
+(menuClick)="menuClicked($event)">
 </app-menu-item>
 
 <app-menu-item 
@@ -11,7 +11,7 @@ class="listItems"
 id="alterPrevMood" 
 [name]="listItems[1]"
 [mosaic]="false"
-(menuClick)="menuClick(choice)">
+(menuClick)="menuClicked($event)">
 </app-menu-item>
 
 <app-menu-item 
@@ -19,5 +19,7 @@ class="listItems"
 id="viewMoodMosiac" 
 [name]="listItems[2]"
 [mosaic]="true"
-(menuClick)="menuClick(choice)">
+(menuClick)="menuClicked($event)">
 </app-menu-item>
+<!-- we use $event when the parent component (menu in this case) 
+    doesn't have easy access to the returned value in its child -->

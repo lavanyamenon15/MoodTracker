@@ -1,7 +1,7 @@
 <div *ngIf="loggedIn; else elseblock">
     <div style="align-content: center;padding: auto;">
       <h1> Welcome to Mood Mosiac {{this.name}} !! </h1>
-      <p class="welcome-message"> <i>Your mental health is an important aspect of wellness. Mood Mosiac's purpose is to help you better understand yourself through tracking trends in your mental health and helping you through the rainy days by remembering the sunny ones on the horizon. </i></p>
+      <p><i>Your mental health is an important aspect of wellness. Mood Mosiac's purpose is to help you better understand yourself through tracking trends in your mental health and helping you through the rainy days by remembering the sunny ones on the horizon. </i></p>
       <app-menu></app-menu>
     </div>
   </div>
@@ -14,5 +14,5 @@
             <input matInput [(ngModel)]="name" name="name"> 
         </mat-form-field>
     </form>
-    <button (click)= "Login(name)"> Enter </button>
+    <button mat-raised-button (click)= "Login(name)"> Enter </button>
   </ng-template>

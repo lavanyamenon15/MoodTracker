@@ -1,4 +1,3 @@
-.welcome-message {
-    overflow-wrap:anywhere;
-    
+p {
+    color: rgb(80, 62, 98);
 }
